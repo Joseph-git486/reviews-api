@@ -1,6 +1,6 @@
 # Reviews API
 
-A RESTful CRUD API for managing product reviews. Built as a WebOps induction project to learn backend development from scratch.
+A RESTful CRUD API for managing product reviews.
 
 **Live deployment:** https://reviews-api-ct6v.onrender.com
 
@@ -114,13 +114,3 @@ Content-Type: application/json
 |---------|-------------|
 | `npm run dev` | Start in dev mode with auto-restart (nodemon) |
 | `npm start` | Start in production mode |
-
-## What I Learned
-
-Built this with zero prior backend experience. Key concepts picked up along the way:
-- HTTP request lifecycle (method, URL, headers, body, status codes)
-- Express routing, middleware, and the `req`/`res` pipeline
-- Mongoose schemas, validation, and async DB operations
-- Environment-based configuration & secrets management
-- Centralized error handling with Express's 4-arg middleware pattern
-- Deploying a Node + MongoDB Atlas app via Render
